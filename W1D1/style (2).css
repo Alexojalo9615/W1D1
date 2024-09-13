@@ -1,0 +1,130 @@
+* {
+
+    margin: 0;
+}
+
+
+header {
+
+    text-align: center;
+    padding: 0;
+}
+
+
+*header img {
+    width: 300 px;
+    margin: 300px;
+    justify-content:center;
+}
+
+nav {
+    margin: 10px 0;
+    padding: 15 px;
+    background-color: rgb(238, 238, 176);
+    border-top: 2px solid orange;
+    text-align: center;
+}
+
+.contenitore {
+    text-align: center;
+
+}
+
+.immagine {
+    height: 500px;
+    width: 1000px;
+    display: inline-block;
+
+
+    text-align: center;
+    overflow: hidden;   /* con overflow: hidden; se l'immagine supara la grandezza del div dove è contenuta la nasconde */
+}
+
+#main { /* abbiamo messo un padding al contenitore principale */
+    padding: 0 30%;
+
+}
+
+p {
+    text-align: left;
+
+
+}
+
+.prova{
+    text-align: left;
+}
+
+.prova h1{
+    text-align: center;
+}
+
+/* --- abbiamo richiamato i tag per dirgli di stare a sinistra */
+
+
+ul{
+    text-align: left;
+}
+ol{
+    text-align: left;
+}
+
+.font{
+
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+footer{
+
+    text-align: center;
+    padding: 10px 0;
+}
+
+.cran{
+
+    color: orangered;
+    border-left: solid 1px orangered;
+    padding-left: 10px;
+    padding: 20px 10px;
+    text-align: left;
+
+}
+
+
+
+h2 {
+
+    border-bottom: solid 1px grey;
+    margin: 10px 0;
+    padding: 30px 0;
+    text-align: left;
+}
+
+.focaccia{
+
+    font-weight: bold;
+}
+
+.classe2 {
+
+    padding: 20px;
+
+}
+
+.classe2,
+.classe3,
+.classe4, 
+.classe5, 
+.classe6, 
+.classe7, 
+.classe8 {
+
+    font-size: 18px;
+}
+
+.classe1{
+
+    padding-bottom: 20px;
+    padding-top: 30px; 
+}
